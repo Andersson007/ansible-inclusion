@@ -49,16 +49,16 @@ This section provides URLs to the relevant documentation and standards to be use
 
 *   **"documentation and return sections use `version_added:`..."**:
     *   For each module, parse the `DOCUMENTATION` string.
-    *   Check that `version_added` is present for the module/plugin itself and for its options. The version should be the collection version, not `ansible-core` version.
+    *   Check that `version_added` is present for the module/plugin itself and for its options except cases when they were added in the very first release of the collection. The version should be the collection version, not `ansible-core` version.
 
 *   **"follows the Ansible documentation standards..."**:
-    *   Review module and plugin documentation against the guidelines in `ansible-documentation/docs/docsite/rst/dev_guide/developing_modules_documenting.rst`.
-    *   Check for adherence to best practices mentioned in `ansible-documentation/docs/docsite/rst/dev_guide/developing_modules_best_practices.rst`.
+    *   Review module and plugin documentation against the guidelines in `https://docs.ansible.com/projects/ansible/devel/dev_guide/developing_modules_documenting.html`.
+    *   Check for adherence to best practices mentioned in `https://docs.ansible.com/projects/ansible/devel/dev_guide/developing_modules_best_practices.html`.
     *   The `check_mode` support is specified in the `DOCUMENTATION` block of modules files.
 
 *   **"supports all Python versions..."**:
     *   Check `meta/runtime.yml` for the minimum `ansible-core` version.
-    *   Cross-reference this with the Python support matrix in `ansible-documentation/docs/docsite/rst/reference_appendices/release_and_maintenance.rst`.
+    *   Cross-reference this with the Python support matrix in `https://docs.ansible.com/projects/ansible/devel/reference_appendices/release_and_maintenance.html`.
     *   If there are exceptions, verify they are documented in the collection's `README.md` and documentation fragments/requirements module documentation sections.
 
 *   **"follows development conventions..."**:
