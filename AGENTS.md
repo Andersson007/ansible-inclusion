@@ -57,8 +57,8 @@ This section provides URLs to the relevant documentation and standards to be use
     *   The `check_mode` support is specified in the `DOCUMENTATION` block of modules files.
 
 *   **"supports all Python versions..."**:
-    *   Check `meta/runtime.yml` for the minimum `ansible-core` version.
-    *   Cross-reference this with the Python support matrix in `https://docs.ansible.com/projects/ansible/devel/reference_appendices/release_and_maintenance.html`.
+    *   Check `meta/runtime.yml` for the minimum supported `ansible-core` version.
+    *   Cross-reference the minimum supported `ansible-core` version with the Python support matrix in `https://docs.ansible.com/projects/ansible/devel/reference_appendices/release_and_maintenance.html`.
     *   If there are exceptions, verify they are documented in the collection's `README.md` and documentation fragments/requirements module documentation sections.
 
 *   **"follows development conventions..."**:
