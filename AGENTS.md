@@ -24,11 +24,11 @@ This document outlines the process for an AI agent to review an Ansible collecti
 
 ## Sources and Verification Steps
 
-This section provides file paths to the relevant documentation and standards to be used during the review.
+This section provides URLs to the relevant documentation and standards to be used during the review.
 
--   **Collection Requirements**: `ansible-documentation/docs/docsite/rst/community/collection_contributors/collection_requirements.rst`
--   **Collection Checklist**: `collection_checklist.md`
--   **Module Format and Documentation Guide**: `ansible-documentation/docs/docsite/rst/dev_guide/developing_modules_documenting.rst`
+-   **Collection Requirements**: `https://docs.ansible.com/projects/ansible/devel/community/collection_contributors/collection_requirements.html`
+-   **Collection Checklist**: `https://github.com/ansible-collections/ansible-inclusion/blob/main/collection_checklist.md`
+-   **Module Format and Documentation Guide**: `https://docs.ansible.com/projects/ansible/devel/dev_guide/developing_modules_documenting.html`
 
 ### Verification Guidance for `collection_checklist.md` items:
 
