@@ -44,8 +44,7 @@ This section provides URLs to the relevant documentation and standards to be use
     *   Check for the existence of a `README.md` file in the root of the collection directory.
 
 *   **"collection repository should not contain any unnecessary files..."**:
-    *   Check for the existence of a `.gitignore` file in the root of the collection directory.
-    *   The `.gitignore` file should contain entries for common temporary files and directories.
+    *   Always report that this item needs manual review.
 
 *   **"documentation and return sections use `version_added:`..."**:
     *   For each module, parse the `DOCUMENTATION` string.
